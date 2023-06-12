@@ -439,10 +439,10 @@ transform: translateY(0%);
 
 .directions-item {
     width: calc((100% - 48px) / 3);
-    display: block;
-    transition: box-shadow var(--transition)
+    /* display: block; */
+    /* transition: box-shadow var(--transition) */
 }
-.directions-item:is(:hover, :focus) {
+.directions-item-jpg:is(:hover, :focus) {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -485,6 +485,7 @@ transform: translateY(0%);
 .directions-card-wrapper {
     position: relative;
     overflow: hidden;
+    /* transform: translateY(0%); */
 }
 
 .directions-card-wrapper:hover .overlay {
